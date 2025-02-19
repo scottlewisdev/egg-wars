@@ -56,7 +56,7 @@ Built with the help of **Trae.ai**, Egg Wars is a fresh take on a classic concep
 
 ## 🤖 Built With Trae.ai
 
-This project was developed with the assistance of **Trae.ai**, an AI-powered development tool that helped streamline the creation of Egg Wars. From brainstorming ideas to implementing game mechanics, Trae.ai played a key role in bringing this project to life.
+This project was developed with the assistance of **[Trae.ai](https://trae.ai/)**, an AI-powered development tool that helped streamline the creation of Egg Wars. From brainstorming ideas to implementing game mechanics, Trae.ai played a key role in bringing this project to life.
 
 ---
 
