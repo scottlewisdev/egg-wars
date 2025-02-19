@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Egg Wars - A Trading Strategy Game</title>
+    <meta name="description" content="Buy and sell eggs across different stores to build your egg empire in this fun trading strategy game.">
+    <meta property="og:title" content="Play Egg Wars Online!">
+    <meta property="og:site_name" content="BuiltWithTrae.com">
+    <meta property="og:url" content="https://builtwithtrae.com/egg-wars/">
+    <meta property="og:description" content="Build your egg empire by trading different types of eggs across various stores in this exciting strategy game.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://builtwithtrae.com/egg-wars/social.png">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Play Egg Wars Online!">
+    <meta name="twitter:site" content="@https://builtwithtrae.com/egg-wars/">
+    <meta name="twitter:description" content="Build your egg empire by trading different types of eggs across various stores in this exciting strategy game.">
+    <meta name="twitter:image" content="https://builtwithtrae.com/egg-wars/social.png">
+    <meta name="twitter:image:alt" content="Egg Wars Online Game">
+    <link rel="stylesheet" href="styles.css">
+    <script defer data-domain="builtwithtrae.com" src="https://plausible.io/js/script.js"></script>
+</head>
+<body>
+    <div class="game-container" role="main">
+        <div id="notification-area" class="notification-area" role="alert" aria-live="polite"></div>
+        <div class="header" role="banner">
+            <h1>Egg Wars</h1>
+            <div class="stats" role="status" aria-live="polite">
+                <span aria-label="Cash Balance">Cash: $<span id="cash">20.00</span></span>
+                <span aria-label="Current Day">Day: <span id="day">1</span>/30</span>
+                <span aria-label="Inventory Space">Space: <span id="inventory-space">0/100</span></span>
+                <div class="header-actions">
+                    <div class="travel-menu">
+                        <button id="travel" aria-haspopup="true" aria-expanded="false">Travel</button>
+                        <div id="store-list" class="store-list hidden" role="menu"></div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        
+        <div class="main-content">
+            <div class="location" role="region" aria-label="Current Location">
+                <h2>Current Store: <span id="current-location">Walmart</span></h2>
+            </div>
+            
+            <div class="market" role="region" aria-label="Egg Market">
+                <h3>Egg Market</h3>
+                <div id="market-list" class="market-list" role="list"></div>
+            </div>
+            
+            <div class="inventory" role="region" aria-label="Your Inventory">
+                <h3>Your Inventory</h3>
+                <div id="inventory-list" class="inventory-list" role="list"></div>
+            </div>
+            
+            <div class="reset-container">
+                <button id="reset-game" class="reset-button" aria-label="Reset Game">Reset Game</button>
+            </div>
+        </div>
+
+
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
